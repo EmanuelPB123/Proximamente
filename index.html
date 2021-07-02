@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<title>Lanzamiento 2022</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%
+    }
+
+    .bgimg {
+        background-image: url('/DCS-World.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bgimg2 {
+        background-image: url('/dcs-world-supercarrier-19.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        /*         animation: change 15s infinite; */
+    }
+
+    /*         @keyframes change{
+           0%{box-shadow: none}
+           25%{box-shadow:inset rgba(255, 0, 0, 0.75) 5px 0px 10px 2px;}
+           50%{box-shadow: none}
+           75%{box-shadow:inset rgba(9, 255, 0, 0.75) -5px 0px 25px 2px;}
+           100%{box-shadow: none}
+    }  */
+    .intro {
+        color: rgb(0, 0, 0);
+        transition: 750ms;
+    }
+
+    #introB {
+        color: rgb(255, 255, 255);
+    }
+    #introB:hover {
+        color: rgb(255, 255, 255);
+    }
+
+
+    .intro2 {
+        color: white;
+    }
+
+    .introC {
+        color: white;
+    }
+
+    .btn {
+        cursor: pointer;
+        background-color: rgba(141, 0, 0, 0.199);
+        transition: 500ms;
+    }
+
+    .btn:hover {
+        background-color: #ff0000;
+        box-shadow: red 0px 0px 50px 25px;
+        transition: 1s;
+    }
+
+    .intro:hover {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    #introC:hover {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+
+        color: transparent;
+        transition: 500ms;
+        padding: 1px 1px 1px 1px;
+    }
+
+    .info:hover {
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    .info2 {
+        color: transparent;
+        font-size: 0%;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .info2:hover {
+        font-size: 0%;
+        cursor: unset;
+    }
+
+/*     .light1 {
+        width: 5px;
+        height: 65px;
+        background-color: transparent;
+        position: fixed;
+        top: 26%;
+        left: 80%;
+        transform: rotate(37deg);
+        animation: change 10s infinite;
+    }
+    @keyframes change {
+        0% {
+            box-shadow: #1dfdf979 8px 0px 2px 1px;
+        }
+
+        25% {
+            box-shadow: #1dfdfb 8px 0px 2px 1px;
+        }
+
+        50% {
+            box-shadow: #1dfdf96e 8px 0px 2px 1px;
+        }
+
+        75% {
+            box-shadow: #1dfdfb 8px 0px 2px 1px;
+        }
+
+        100% {
+            box-shadow: #1dfdf971 8px 0px 2px 1px;
+        }
+    } */
+/*     .light1off{
+        transform: rotate(0deg);
+        top: 46%;
+        left: 21%;
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        animation: cambio 5s infinite;
+        
+    }
+    @keyframes cambio {
+        0% {
+            box-shadow: #ff880071 0px 0px 20px 15px;
+        }
+
+        25% {
+            box-shadow: #ffd900 0px 0px 20px 15px;
+        }
+
+        50% {
+            box-shadow: #ff8800 0px 0px 20px 15px;
+        }
+
+        75% {
+            box-shadow: #ffee00 0px 0px 20px 15px;
+        }
+
+        100% {
+            box-shadow: #ff880071 0px 0px 20px 15px;
+        }
+    } */
+</style>
+
+<body>
+
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white" id="bgimg">
+        <!--         <div class="w3-display-topleft w3-padding-large w3-xlarge">
+            Logo
+        </div> -->
+        <div class="w3-display-middle intro" id="intro">
+            <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+            <hr class="w3-border-black linea" style="margin:auto;width:40%">
+            <p class="w3-large w3-center ">35 days left</p>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large intro" id="introB">
+            Creado por <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" style="text-decoration: none;" >EmanuelWebs</a>
+        </div>
+    </div>
+    <div class="w3-large DM" style="position: absolute;top:5%;left: 65%" id="introC">Dark mode</div>
+    <button id="btn" class="btn"
+        style="position: absolute;top: 10%;left: 65%;border-radius: 50%;height: 2rem;width:2rem;"></button>
+    <div class="info" id="info" style="border: 1rem;">
+       <!--  <p> ABOUT THE DCS: F/A-18C HORNET <br>
+            The F/A-18C Hornet is twin engine, supersonic fighter that is flown by a single pilot in a "glass cockpit".
+            It combines extreme maneuverability , a deadly arsenal of weapons, and the ability to operate from an
+            aircraft carrier. Operated by several nations, this multi-role fighter has been instrumental in conflicts
+            from 1986 to today.<a href="https://www.digitalcombatsimulator.com/en/shop/modules/hornet/" target="_blank"
+                rel="noopener noreferrer">seguir leyendo</a></p> -->
+    </div>
+    <div id="light1" class="light1"></div>
+    <script src="/js.js"></script>
+    <div></div>
+</body>
+
+</html>
